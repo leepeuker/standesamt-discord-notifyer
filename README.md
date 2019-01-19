@@ -5,8 +5,15 @@ Node.js 8.10.0 or higher and npm
 Install dependencies and copy .env file
 
 ```sh
+$ git clone https://github.com/leepeuker/standesamt-discord-notifyer.git
+$ cd standesamt-discord-notifyer/
 $ npm install
 $ cp .env.dist .env
+```
+
+### Run
+```sh
+$ node app.js
 ```
 
 ### Configuration (.env):
